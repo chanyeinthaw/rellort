@@ -15,7 +15,7 @@ abstract public class BaseController implements BaseControllerInterface {
     private HashMap<String, Object> extras;
 
     protected Stage currentStage;
-    protected OnControllerResultHandler onControllerResultHandler;
+    private OnControllerResultHandler onControllerResultHandler;
 
     protected BaseController() {
         extras = new HashMap<>();
@@ -121,4 +121,8 @@ abstract public class BaseController implements BaseControllerInterface {
     }
 
     //endregion
+
+    public void sendResults(Object ...results) {
+        onControllerResultHandler.onResult(results);
+    }
 }
