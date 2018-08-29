@@ -1,9 +1,8 @@
-package com.chan.xcene.test;
+package com.chan.rellort.test;
 
-import com.chan.xcene.annotations.Layout;
-import com.chan.xcene.background.Task;
-import com.chan.xcene.controller.BaseController;
-import javafx.application.Platform;
+import com.chan.rellort.annotations.Layout;
+import com.chan.rellort.background.Task;
+import com.chan.rellort.controller.BaseController;
 import javafx.stage.WindowEvent;
 
 @Layout("TestScene")

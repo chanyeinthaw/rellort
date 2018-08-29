@@ -1,4 +1,4 @@
-package com.chan.xcene.background;
+package com.chan.rellort.background;
 
 import javafx.application.Platform;
 

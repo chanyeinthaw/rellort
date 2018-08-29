@@ -1,6 +1,5 @@
-package com.chan.xcene.controller;
+package com.chan.rellort.controller;
 
-import javafx.event.EventType;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

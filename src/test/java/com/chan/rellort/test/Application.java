@@ -1,6 +1,6 @@
-package com.chan.xcene.test;
+package com.chan.rellort.test;
 
-import com.chan.xcene.Xcene;
+import com.chan.rellort.Rellort;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Xcene root =  new Xcene(TestController.class, primaryStage);
+        Rellort root =  new Rellort(TestController.class, primaryStage);
 
         root.start().show();
     }

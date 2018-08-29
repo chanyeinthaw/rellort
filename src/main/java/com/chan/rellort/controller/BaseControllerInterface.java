@@ -1,4 +1,4 @@
-package com.chan.xcene.controller;
+package com.chan.rellort.controller;
 
 import javafx.stage.WindowEvent;
 

@@ -1,4 +1,4 @@
-package com.chan.xcene.annotations;
+package com.chan.rellort.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

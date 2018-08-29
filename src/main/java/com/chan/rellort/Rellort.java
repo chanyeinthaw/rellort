@@ -1,8 +1,7 @@
-package com.chan.xcene;
+package com.chan.rellort;
 
-import com.chan.xcene.annotations.Layout;
-import com.chan.xcene.controller.BaseController;
-import com.chan.xcene.controller.BaseControllerInterface;
+import com.chan.rellort.annotations.Layout;
+import com.chan.rellort.controller.BaseController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.layout.Pane;
@@ -11,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Xcene {
+public class Rellort {
     private static String LAYOUT_ROOT = "layouts/";
 
     /**
@@ -30,29 +29,29 @@ public class Xcene {
     private boolean isModal;
 
     /**
-     * Create instance of Xcene in new Stage
+     * Create instance of Rellort in new Stage
      * @param controllerClass - Class
      */
-    public Xcene(Class<? extends BaseController> controllerClass) {
+    public Rellort(Class<? extends BaseController> controllerClass) {
         this(controllerClass, new Stage());
     }
 
     /**
-     * Create instance of Xcene in existing Stage
+     * Create instance of Rellort in existing Stage
      * @param controllerClass - Class
      * @param startStage - Stage
      */
-    public Xcene(Class<? extends BaseController> controllerClass, Stage startStage) {
+    public Rellort(Class<? extends BaseController> controllerClass, Stage startStage) {
         this(controllerClass, startStage, LAYOUT_ROOT);
     }
 
     /**
-     * Create instance of Xcene
+     * Create instance of Rellort
      * @param controllerClass - Class
      * @param startStage - Stage
      * @param layoutRoot - Layout root dir
      */
-    public Xcene(Class<? extends BaseController> controllerClass, Stage startStage, String layoutRoot) {
+    public Rellort(Class<? extends BaseController> controllerClass, Stage startStage, String layoutRoot) {
         this.controllerClass = controllerClass;
         this.currentStage = startStage;
         this.layoutRoot = layoutRoot;
